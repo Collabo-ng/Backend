@@ -140,7 +140,7 @@ We follow the Git Flow branching model to manage our codebase effectively. Here�
 	•	Naming Convention: hotfix/x.x.x
 	•	Purpose: Quickly patch production releases.
 
-	:information_source: Tip: Always create feature branches from develop and ensure that the develop branch is up to date before starting new work.
+:information_source: Tip: Always create feature branches from develop and ensure that the develop branch is up to date before starting new work.
 
 Running Tests
 
@@ -175,7 +175,7 @@ npm run format
 
 
 
-	:exclamation: Note: Adhering to linting and formatting rules helps maintain a consistent code style across the project.
+:exclamation: Note: Adhering to linting and formatting rules helps maintain a consistent code style across the project.
 
 🤝 Contributing
 
