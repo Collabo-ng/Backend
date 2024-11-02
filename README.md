@@ -67,7 +67,7 @@ cp .env.example .env
 
 
 
-	:information_source: Tip: Use a .env management tool or service to securely handle your environment variables, especially in production environments.
+:information_source: Tip: Use a .env management tool or service to securely handle your environment variables, especially in production environments.
 
 4.	Run Migrations (If Applicable)
 
@@ -84,29 +84,32 @@ DATABASE_URL=mongodb://localhost:27017/collabo
 JWT_SECRET=your_jwt_secret
 API_KEY=your_api_key
 
-	:exclamation: Note: Never commit your .env file to version control. Use environment variables management practices to keep your secrets safe.
+:exclamation: Note: Never commit your .env file to version control. Use environment variables management practices to keep your secrets safe.
 
 🔧 Usage
 
 Starting the Server
 
 To start the development server, run:
-
-npm run dev
+	 ```bash
+	
+	npm run dev
 
 The server will start on the port specified in your .env file (default is 5000).
 
 Building for Production
 
 To build the application for production, execute:
-
-npm run build
+	 ```bash
+	
+	npm run build
 
 Then, start the production server:
+	 ```bash
+	
+	npm start
 
-npm start
-
-	:warning: Caution: Ensure all environment variables are correctly set in the production environment before building and deploying the application.
+:warning: Caution: Ensure all environment variables are correctly set in the production environment before building and deploying the application.
 
 API Documentation
 
@@ -142,14 +145,15 @@ We follow the Git Flow branching model to manage our codebase effectively. Here�
 Running Tests
 
 We use Jest for testing. To run the test suite:
-
-npm test
+	 ```bash
+	
+	npm test
 
 To run tests in watch mode:
+	 ```bash
+	npm run test:watch
 
-npm run test:watch
-
-	:warning: Important: Ensure that all tests pass before merging any pull requests to maintain code quality and stability.
+:warning: Important: Ensure that all tests pass before merging any pull requests to maintain code quality and stability.
 
 Linting and Formatting
 
@@ -218,7 +222,7 @@ Pull Request Process
 	3.	Link related issues: If your PR addresses an issue, link it using Closes #issue-number.
 	4.	Respond to feedback: Be open to suggestions and make necessary revisions.
 
-	:information_source: Tip: Before starting work on a feature or bugfix, check if an issue already exists or open a new one to discuss your approach.
+:information_source: Tip: Before starting work on a feature or bugfix, check if an issue already exists or open a new one to discuss your approach.
 
 📂 Project Structure
 
@@ -255,7 +259,7 @@ collabo-backend/
 	•	config/: Configuration files.
 	•	tests/: Test suites for the application.
 
-	:warning: Caution: Avoid making direct changes to the main branch. Always use feature branches and submit pull requests for review.
+:warning: Caution: Avoid making direct changes to the main branch. Always use feature branches and submit pull requests for review.
 
 🛠️ Tools & Technologies
 
@@ -286,7 +290,7 @@ For any inquiries or support, please reach out to support@collabo.com.ng
 	•	Project Management: Notion Workspace
 	•	Codebase Overview: Architecture Overview
 
-	:information_source: Tip: Familiarize yourself with the project resources to get a comprehensive understanding of the codebase and development workflows.
+:information_source: Tip: Familiarize yourself with the project resources to get a comprehensive understanding of the codebase and development workflows.
 
 📝 Additional Information
 
