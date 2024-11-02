@@ -54,12 +54,12 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/yourorganization/collabo-backend.git
    cd collabo-backend
 
-	2.	Install Dependencies
+2.	Install Dependencies
+    ```bash
+	npm install
 
-npm install
 
-
-	3.	Set Up Environment Variables
+3.	Set Up Environment Variables
 	•	Duplicate the .env.example file and rename it to .env.
 	•	Fill in the required environment variables in the .env file.
 
@@ -69,7 +69,7 @@ cp .env.example .env
 
 	:information_source: Tip: Use a .env management tool or service to securely handle your environment variables, especially in production environments.
 
-	4.	Run Migrations (If Applicable)
+4.	Run Migrations (If Applicable)
 
 npm run migrate
 
