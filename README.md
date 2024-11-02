@@ -1,6 +1,3 @@
-I have identified the incorrect formatting in your README.md file. Here is a corrected version:
-
-```markdown
 # Collabo Backend
 
 ![Collabo Logo](https://yourcompany.com/logo.png)
